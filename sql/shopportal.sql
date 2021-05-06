@@ -176,11 +176,11 @@ CREATE TABLE IF NOT EXISTS `enquiry` (
 --
 
 INSERT INTO `enquiry` (`enquiryid`, `userid`, `assignedAdminId`, `assignedAdminName`, `name`, `email`, `mobile`, `subject`, `message`, `adminEnquiryFeedback`, `customerEnquiryFeedback`, `rating`, `enquiryStatus`, `enquiryOpenDate`, `openDate`, `enquiryAssignedDate`, `enquiryClosedDate`) VALUES
-('ENQ_1', 'SP_1', 'KAUSHIKJ', 'KAUSHIK', 'JKJKJ', 'kaushikluther19@gmail.com', '5454545455', 'jadkjakj', 'sdddsds', NULL, NULL, NULL, 1, '2020-12-19 10:22:03', NULL, '19-12-2020 14:12:54', NULL),
-('ENQ_2', 'SP_1', NULL, NULL, 'JKJKJ', 'kaushikluther19@gmail.com', '5454545455', 'jadkjakj', 'edfefsf', 'issue closed by customer', NULL, NULL, 2, '2020-12-19 10:22:03', NULL, NULL, '19-12-2020 14:12:21'),
-('ENQ_3', 'SP_1', '', '', 'JKJKJ', 'kaushikluther19@gmail.com', '5454545455', 'jadkjakj', 'ffffffffffss', NULL, NULL, NULL, 0, '2020-12-19 10:22:03', NULL, '19-12-2020 14:12:54', NULL),
-('ENQ_4', 'SP_1', NULL, NULL, 'JKJKJ', 'kaushikluther19@gmail.com', '5454545455', 'jadkjakj', 'hhhhhfff', NULL, NULL, NULL, 0, '2020-12-19 10:22:03', NULL, NULL, NULL),
-('ENQ_5', 'SP_1', NULL, NULL, 'JKJKJ', 'kaushikluther19@gmail.com', '5454545455', 'jadkjakj', 'ddfdffdf', NULL, NULL, NULL, 0, '2020-12-19 10:22:03', NULL, NULL, NULL);
+('ENQ_1', 'SP_1', 'KAUSHIKJ', 'KAUSHIK', 'JKJKJ', 'kk@kk.com', '5454545455', 'jadkjakj', 'sdddsds', NULL, NULL, NULL, 1, '2020-12-19 10:22:03', NULL, '19-12-2020 14:12:54', NULL),
+('ENQ_2', 'SP_1', NULL, NULL, 'JKJKJ', 'kk@kk.com', '5454545455', 'jadkjakj', 'edfefsf', 'issue closed by customer', NULL, NULL, 2, '2020-12-19 10:22:03', NULL, NULL, '19-12-2020 14:12:21'),
+('ENQ_3', 'SP_1', '', '', 'JKJKJ', 'kk@kk.com', '5454545455', 'jadkjakj', 'ffffffffffss', NULL, NULL, NULL, 0, '2020-12-19 10:22:03', NULL, '19-12-2020 14:12:54', NULL),
+('ENQ_4', 'SP_1', NULL, NULL, 'JKJKJ', 'kk@kk.com', '5454545455', 'jadkjakj', 'hhhhhfff', NULL, NULL, NULL, 0, '2020-12-19 10:22:03', NULL, NULL, NULL),
+('ENQ_5', 'SP_1', NULL, NULL, 'JKJKJ', 'kk@kk.com', '5454545455', 'jadkjakj', 'ddfdffdf', NULL, NULL, NULL, 0, '2020-12-19 10:22:03', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
