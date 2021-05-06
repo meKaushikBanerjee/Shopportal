@@ -1,0 +1,152 @@
+/* Custom page CSS*/
+
+/*------------- Basic Body CSS -------------*/
+
+html, body {
+    /* IE 10-11 didn't like using min-height */
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font: 16px Sans-Serif;
+}
+.content {
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+}
+
+/*------------- Basic Body CSS -------------*/
+
+/*------------- Login-Signup CSS -------------*/
+
+.brand-admin-login {
+  margin-top: 10px;
+  font-family: 'Amita';
+  color: #000000;
+  text-align: center;
+}
+.captcha-image {
+  background-image: url('../../images/captcha-bg.JPG'); 
+  color: black; 
+  font-size: 20px; 
+  font-weight: bold;
+  text-align: center;
+}
+.error-color {
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10px;
+}
+.card { 
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 
+        0 2px 2px 2px rgba(0, 0, 0, 0.08), 
+        0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  margin: 10px 0 10px 0;
+}
+@media (min-width: 800px) {
+  .text-center {
+    margin: auto;
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .text-center {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.form-signin .form-control-captcha {
+  position: relative;
+  width: 40%;
+  color: #000000;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  float: left;
+  overflow: hidden;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.reload-button {
+  float: right;
+  width: 40%;
+  padding: 10px 10px;
+  overflow: hidden;
+  color: #ffffff;
+  background-color: #009973;
+  margin-top: 10px;
+}
+.btn {
+  margin-top: 10px;
+}
+.font-weight-bold {
+  text-align: center;
+}
+.form-signin .register-link {
+  text-decoration: none;
+  color: red;
+  border-style: none;
+}
+.form-signin .register-link:hover {
+  text-decoration: none;
+  color: green;
+  font-weight: 600;
+}
+
+/*------------- Login-Signup CSS -------------*/
+
+/*------------- Footer CSS -------------*/
+
+footer {
+ 	flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 10px;
+  background: #00994d;
+  text-align: center;
+}
+.footer .footer-text {
+	 color: white;
+}
+
+/*------------- Footer CSS -------------*/

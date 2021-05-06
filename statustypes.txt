@@ -1,0 +1,19 @@
+Order Status-
+0 awaiting confirmation from seller
+5 confirmed by seller
+1 processed
+2 shipped
+3 out for delivery
+4 delivered
+6 cancelled by seller
+7 cancelled by customer
+8 confirmed by customer
+
+Payment Status-
+0 pending
+1 cleared
+
+Enquiry Status-
+0 Open
+1 Assigned
+2 Closed
